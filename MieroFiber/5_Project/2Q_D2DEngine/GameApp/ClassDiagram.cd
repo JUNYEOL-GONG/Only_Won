@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameApp">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQEAAAAAAAAAAAAAwAACABAAAAAAAAA=</HashCode>
+      <FileName>GameApp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChaeWorld">
+    <Position X="6.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChaeWorld.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JunWorld">
+    <Position X="8.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABAAAAAAAAAAQAAAAAAAAAAAAAAAAAAADAAAAAQAAA=</HashCode>
+      <FileName>JunWorld.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestWorld">
+    <Position X="5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAQAIAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>TestWorld.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoxObject">
+    <Position X="10.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>BoxObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraObject">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAAAICAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CameraObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DemoObject">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAABwAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DemoObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerObject">
+    <Position X="10.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAAAAAAQIAAgAAAggAAAAAgAAAA=</HashCode>
+      <FileName>PlayerObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerObject1">
+    <Position X="12.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAAAAAACIAAgAIAggAAAAAgAAAA=</HashCode>
+      <FileName>PlayerObject1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerObject2">
+    <Position X="10.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAAAAAAAIAAgAAAAgAAAAEgAAAA=</HashCode>
+      <FileName>PlayerObject2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerFSM">
+    <Position X="4.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIIAAAQAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlayerFSM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerIdleState">
+    <Position X="2.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAABAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>PlayerIdleState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMoveState">
+    <Position X="0.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAQAAAAAIAAQAAAAAA=</HashCode>
+      <FileName>PlayerMoveState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerTransition">
+    <Position X="1" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAQAAAgAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlayerTransition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleToMove">
+    <Position X="2.5" Y="5.75" Width="1.5" />
+    <InheritanceLine Type="PlayerTransition" ManuallyRouted="true">
+      <Path>
+        <Point X="1.75" Y="2.948" />
+        <Point X="1.75" Y="3.407" />
+        <Point X="3.25" Y="3.407" />
+        <Point X="3.25" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlayerTransition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveToIdle">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="PlayerTransition" ManuallyRouted="true">
+      <Path>
+        <Point X="1.75" Y="2.948" />
+        <Point X="1.75" Y="3.364" />
+        <Point X="1.25" Y="3.364" />
+        <Point X="1.25" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlayerTransition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIObject">
+    <Position X="12.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAAAAIAAQAAACAAAAAAAAAAABAAAAAAAAAACAA=</HashCode>
+      <FileName>UIObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

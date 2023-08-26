@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="0. pch">
+      <UniqueIdentifier>{d689bd9d-8bbe-40b7-a48d-321737baacfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Core">
+      <UniqueIdentifier>{e07e1d70-d6ee-4a24-ab1a-158f442aa0d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. World">
+      <UniqueIdentifier>{01d068ba-2306-41c0-b66e-d7b69636e170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Manager">
+      <UniqueIdentifier>{c7cc2f92-2ae0-4753-be98-dffd48af7b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Object">
+      <UniqueIdentifier>{b3890fd6-e86a-464a-8011-b821dcc02c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Component">
+      <UniqueIdentifier>{73fb0963-91aa-40f1-bf43-fd88c184cf5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Component\SceneComponent">
+      <UniqueIdentifier>{08b6e08d-7cc1-41d9-bad1-3d233590b34b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Component\SceneComponent\RenderComponent">
+      <UniqueIdentifier>{c481620b-409c-40d0-8ad9-f3b907091d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Component\SceneComponent\RenderComponent\Renderables">
+      <UniqueIdentifier>{6707b312-ffe5-408f-b87d-970a9c425d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Component\SceneComponent\CameraComponent">
+      <UniqueIdentifier>{c37f40be-de6a-4a01-bdfa-610ea0551e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6. Resource">
+      <UniqueIdentifier>{d2792b97-1776-4812-94e9-e17614d54498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6. Resource\ReferenceCounter">
+      <UniqueIdentifier>{516bab54-29fc-4112-8d56-ebd6532dfa25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6. Resource\AnimationAsset">
+      <UniqueIdentifier>{ae6d63f1-89a5-4397-a326-aa7c8090da0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Component\SceneComponent\RenderComponent\Renderables\AnimationComponent">
+      <UniqueIdentifier>{65a0006f-f459-4259-a99a-299dfa3f83c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Component\SceneComponent\RenderComponent\Renderables\BoxComponent">
+      <UniqueIdentifier>{4b57185f-bb60-45c5-8dbf-eb9d081ad80d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Component\MovementComponent">
+      <UniqueIdentifier>{2ce7e6ef-eb89-4990-bdc2-9fe6686b6969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8. Physics">
+      <UniqueIdentifier>{4e27c1da-8aec-4e24-a13d-5cacdc00005c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9. FSM">
+      <UniqueIdentifier>{b3f684a6-2032-4615-b46c-4c7e5aff758c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Component\FSMComponent">
+      <UniqueIdentifier>{27425de9-ea4f-4bc2-9650-67b0314a4488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10. Event">
+      <UniqueIdentifier>{5159521c-964a-4590-93af-ca4779b09fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Object\GameObject">
+      <UniqueIdentifier>{02ec333f-81f4-4090-83e5-e75db94aa94f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Component\SceneComponent\RenderComponent\Renderables\DirectionComponent">
+      <UniqueIdentifier>{775378ed-d020-46ab-a7a6-359e56d27828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8. Physics\Collider">
+      <UniqueIdentifier>{34abe5e7-b562-4246-a98a-3c43d18171fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8. Physics\Collider\BoxCollider2D">
+      <UniqueIdentifier>{894ac550-b50a-467a-b73a-ad3517c508fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8. Physics\Collider\CircleCollider2D">
+      <UniqueIdentifier>{0a80bf72-245d-430d-94fb-acf0e636194a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Manager\EventManager">
+      <UniqueIdentifier>{f8def995-5159-4efb-8f54-9dcd5db70910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Manager\InputManager">
+      <UniqueIdentifier>{a92a56cc-44a5-4852-aac3-72cb43f57034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Manager\TimeManager">
+      <UniqueIdentifier>{8678ecb3-1671-4c1a-ac7c-a41db7d23dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Manager\UIManager">
+      <UniqueIdentifier>{e171ea67-3941-4172-bca2-cf25878634ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Manager\WorldManager">
+      <UniqueIdentifier>{e6c079e5-c7ca-4d9a-ac11-c3cf180d6822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9. FSM\FSMState">
+      <UniqueIdentifier>{f76e42d3-f7c5-4679-b71e-28819e84ae86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9. FSM\FSMState\FSMTransition">
+      <UniqueIdentifier>{de22917f-00d7-403b-a919-38fe1b1d0c5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Manager\CollisionManager">
+      <UniqueIdentifier>{dfce42b3-e7d1-4f93-951a-73c8cfcd1577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Manager\SoundManager">
+      <UniqueIdentifier>{b0fcf1b7-4029-4856-87e2-3089cb04955e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Component\SceneComponent\RenderComponent\Renderables\TextureComponent">
+      <UniqueIdentifier>{fe91d0fa-e139-4655-8fd9-54537eaf8569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6. Resource\TextureAsset">
+      <UniqueIdentifier>{82229afa-fc8f-4f09-873c-9f481c71c416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7. Math">
+      <UniqueIdentifier>{7ded6040-4dd3-4b15-b2df-b4d6a2870161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Component\SceneComponent\RenderComponent\Renderables\UIComponent">
+      <UniqueIdentifier>{992eadf2-f900-469d-a5d4-8a48f09d856d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Component\SceneComponent\RenderComponent\Renderables\UIComponent\ButtonUI">
+      <UniqueIdentifier>{6192bd80-f4f2-42e1-8d53-c86cb3532b67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Component\SceneComponent\RenderComponent\Renderables\UIComponent\PanelUI">
+      <UniqueIdentifier>{c6ae7bc5-37c6-44cc-be82-35977d1afaa2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>0. pch</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>0. pch</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonApp.h">
+      <Filter>1. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>4. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>5. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneComponent.h">
+      <Filter>5. Component\SceneComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>5. Component\SceneComponent\RenderComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>0. pch</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <Filter>5. Component\SceneComponent\CameraComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>7. Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferenceCounter.h">
+      <Filter>6. Resource\ReferenceCounter</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationAsset.h">
+      <Filter>6. Resource\AnimationAsset</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>3. World</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationComponent.h">
+      <Filter>5. Component\SceneComponent\RenderComponent\Renderables\AnimationComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxComponent.h">
+      <Filter>5. Component\SceneComponent\RenderComponent\Renderables\BoxComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMovement.h">
+      <Filter>5. Component\MovementComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="FSMComponent.h">
+      <Filter>5. Component\FSMComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.h">
+      <Filter>9. FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>10. Event</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListener.h">
+      <Filter>10. Event</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>4. Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>5. Component\SceneComponent\RenderComponent\Renderables\UIComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonUI.h">
+      <Filter>5. Component\SceneComponent\RenderComponent\Renderables\UIComponent\ButtonUI</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionComponent.h">
+      <Filter>5. Component\SceneComponent\RenderComponent\Renderables\DirectionComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="EventFunctor.h">
+      <Filter>10. Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider2D.h">
+      <Filter>8. Physics\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="PanelUI.h">
+      <Filter>5. Component\SceneComponent\RenderComponent\Renderables\UIComponent\PanelUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider2D.h">
+      <Filter>8. Physics\Collider\CircleCollider2D</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider2D.h">
+      <Filter>8. Physics\Collider\BoxCollider2D</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>2. Manager\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>2. Manager\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>2. Manager\TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>2. Manager\UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldManager.h">
+      <Filter>2. Manager\WorldManager</Filter>
+    </ClInclude>
+    <ClInclude Include="FSMState.h">
+      <Filter>9. FSM\FSMState</Filter>
+    </ClInclude>
+    <ClInclude Include="FSMTransition.h">
+      <Filter>9. FSM\FSMState\FSMTransition</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>2. Manager\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureComponent.h">
+      <Filter>5. Component\SceneComponent\RenderComponent\Renderables\TextureComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureAsset.h">
+      <Filter>6. Resource\TextureAsset</Filter>
+    </ClInclude>
+    <ClInclude Include="PopUpUI.h" />
+    <ClInclude Include="Rigidbody2D.h" />
+    <ClInclude Include="DebugRenderComponent.h" />
+    <ClInclude Include="BarUI.h" />
+    <ClInclude Include="CollisionManager.h">
+      <Filter>2. Manager\CollisionManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>0. pch</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonApp.cpp">
+      <Filter>1. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>3. World</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>4. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>5. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneComponent.cpp">
+      <Filter>5. Component\SceneComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>5. Component\SceneComponent\RenderComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraComponent.cpp">
+      <Filter>5. Component\SceneComponent\CameraComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferenceCounter.cpp">
+      <Filter>6. Resource\ReferenceCounter</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationAsset.cpp">
+      <Filter>6. Resource\AnimationAsset</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationComponent.cpp">
+      <Filter>5. Component\SceneComponent\RenderComponent\Renderables\AnimationComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxComponent.cpp">
+      <Filter>5. Component\SceneComponent\RenderComponent\Renderables\BoxComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMovement.cpp">
+      <Filter>5. Component\MovementComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="FSMComponent.cpp">
+      <Filter>5. Component\FSMComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="FSM.cpp">
+      <Filter>9. FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>4. Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>5. Component\SceneComponent\RenderComponent\Renderables\UIComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonUI.cpp">
+      <Filter>5. Component\SceneComponent\RenderComponent\Renderables\UIComponent\ButtonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionComponent.cpp">
+      <Filter>5. Component\SceneComponent\RenderComponent\Renderables\DirectionComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider2D.cpp">
+      <Filter>8. Physics\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="PanelUI.cpp">
+      <Filter>5. Component\SceneComponent\RenderComponent\Renderables\UIComponent\PanelUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider2D.cpp">
+      <Filter>8. Physics\Collider\CircleCollider2D</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider2D.cpp">
+      <Filter>8. Physics\Collider\BoxCollider2D</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>2. Manager\EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>2. Manager\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>2. Manager\TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>2. Manager\UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldManager.cpp">
+      <Filter>2. Manager\WorldManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FSMState.cpp">
+      <Filter>9. FSM\FSMState</Filter>
+    </ClCompile>
+    <ClCompile Include="FSMTransition.cpp">
+      <Filter>9. FSM\FSMState\FSMTransition</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>2. Manager\CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>2. Manager\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureComponent.cpp">
+      <Filter>5. Component\SceneComponent\RenderComponent\Renderables\TextureComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureAsset.cpp">
+      <Filter>6. Resource\TextureAsset</Filter>
+    </ClCompile>
+    <ClCompile Include="PopUpUI.cpp" />
+    <ClCompile Include="Rigidbody2D.cpp" />
+    <ClCompile Include="DebugRenderComponent.cpp" />
+    <ClCompile Include="BarUI.cpp" />
+  </ItemGroup>
+</Project>

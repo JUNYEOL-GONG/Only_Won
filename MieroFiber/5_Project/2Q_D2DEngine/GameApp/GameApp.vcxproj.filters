@@ -1,0 +1,676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="0. pch">
+      <UniqueIdentifier>{ef012376-2d44-443a-bab5-0eec0f451e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Core">
+      <UniqueIdentifier>{e3c3beb1-2f14-4ef7-b3c3-14f53c954db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World">
+      <UniqueIdentifier>{51f8b8bb-4ac5-4fc3-a787-94ab49d57746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object">
+      <UniqueIdentifier>{8ea91983-69e5-4091-8b3b-90952846fd77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM">
+      <UniqueIdentifier>{a026f72c-4fae-4a6e-8755-3b0cd860e3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\ItemObject">
+      <UniqueIdentifier>{1fe4bbe9-2f38-4cd0-a269-863b71225d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\PlayerObject">
+      <UniqueIdentifier>{e210829f-4ae8-4732-9f7e-7c4d9fc55473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\TestObjects">
+      <UniqueIdentifier>{07f79594-a688-4f6a-8ea2-a6cf84c8db5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player1">
+      <UniqueIdentifier>{8d9ef91a-3a80-42d8-a96e-c4211c9a3f84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player1\State">
+      <UniqueIdentifier>{82e7a899-e6fd-466d-a57f-a27c50dc130b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player1\Transition">
+      <UniqueIdentifier>{8b54b51a-f46f-4866-a76a-037bcd50031c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player2">
+      <UniqueIdentifier>{e1387220-b20e-4564-8b92-c4860105d9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player2\State">
+      <UniqueIdentifier>{1b7dc7d1-0029-4e21-bf45-0013337f6e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player2\Transition">
+      <UniqueIdentifier>{0106d784-1925-401f-8e8b-d3ce03ae902f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\MoneyObject">
+      <UniqueIdentifier>{19476de3-8a9b-4e36-a307-e570f6e83715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\ItemBoxObject">
+      <UniqueIdentifier>{4bc362fc-aef9-4e5a-8be6-a1ce3cc03445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World\TestWorlds">
+      <UniqueIdentifier>{cbf0e261-0d5c-4cf4-96e1-4dbd1789bbac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World\MainWorld">
+      <UniqueIdentifier>{bc40e8cb-9561-42c0-b20b-965f6e0a0943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. UI">
+      <UniqueIdentifier>{feed059b-beb0-446f-862a-917bf81049c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. UI\MainUI">
+      <UniqueIdentifier>{b0aa4249-0ce7-4348-9d32-445b59c497b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\TrainObject">
+      <UniqueIdentifier>{53e7f1cd-7a0d-45d0-bbde-b3f45f19c2d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\Spawner">
+      <UniqueIdentifier>{f4752eb0-f250-4579-b845-b43673cc3a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\Spawner\TrainSpawner">
+      <UniqueIdentifier>{0290bb54-0b26-4089-8cc4-c806a554dcec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\Spawner\MoneySpawner">
+      <UniqueIdentifier>{ac1a5750-9229-4190-89ae-570ab4e5f957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. UI\InstructionUI">
+      <UniqueIdentifier>{238ea82f-c381-42ee-8a04-c19c9760b82c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. UI\InGameUI">
+      <UniqueIdentifier>{26443ab5-bf97-49f7-a1a0-27111e764fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. UI\GameSettingUI">
+      <UniqueIdentifier>{025bba43-d8cb-4898-9316-e12ef172c7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. UI\MadeByUI">
+      <UniqueIdentifier>{a8dbbdd0-3019-47d3-8643-62b93ab31f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World\InstructionWorld">
+      <UniqueIdentifier>{c345abc6-594e-4860-b1e6-b15d6d8fd3cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World\MadeByWorld">
+      <UniqueIdentifier>{9681b31c-73bd-42c2-95ba-455ae78be021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World\InGameWorld">
+      <UniqueIdentifier>{c9ee79b4-de77-4a2f-816a-1194944b2f12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. World\GameSettingWorld">
+      <UniqueIdentifier>{6420067d-cafc-4918-999e-7f2c0e62fe3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\ItemObject\THROW TYPE">
+      <UniqueIdentifier>{53614471-2241-4941-a5a5-79f5f108f4f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\ItemObject\INSTALLATION TYPE">
+      <UniqueIdentifier>{59331b0b-5400-4c52-b011-c968790fb04f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\ItemObject\REINFORCED TYPE">
+      <UniqueIdentifier>{a42715ad-d702-4304-a9e2-029ca981d458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\ItemObject\THROW TYPE\PunchItem">
+      <UniqueIdentifier>{8460913d-51d6-4455-83d4-d52fa27d6de0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\ItemObject\THROW TYPE\SnowItem">
+      <UniqueIdentifier>{9bc6cd75-db10-48c4-ab21-ff79b2474db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\ItemObject\THROW TYPE\BottleItem">
+      <UniqueIdentifier>{cfb0ee07-e1f7-4246-9530-4e9e39d280c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\ItemObject\INSTALLATION TYPE\TrapItem">
+      <UniqueIdentifier>{9cd50da1-cea3-4d2f-981c-34c3ae5f1e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\ItemObject\REINFORCED TYPE\ShoeItem">
+      <UniqueIdentifier>{04179e62-a79b-49a0-a30e-87d81c4f7270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\ItemObject\REINFORCED TYPE\WaveItem">
+      <UniqueIdentifier>{b68f0a74-0ded-47c2-923c-e9ffc5e505c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player1\State\IDLE">
+      <UniqueIdentifier>{26f273d2-5b71-44c6-bad1-1e107fbbb0f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player1\State\MOVE">
+      <UniqueIdentifier>{ede32df1-d778-46cf-b231-04dd0e1d37ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player1\State\STUN">
+      <UniqueIdentifier>{f994d3f0-8d79-421f-bda9-294f3ac2b644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\Spawner\ItemSpawner">
+      <UniqueIdentifier>{cf6624cc-3c18-4122-9300-a859bf7d8f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player2\State\IDLE">
+      <UniqueIdentifier>{a420e14c-ab85-4bda-9395-e22cd33f9b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player2\State\MOVE">
+      <UniqueIdentifier>{9e7a0645-0a49-46de-8375-bf7a92429c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player2\State\STUN">
+      <UniqueIdentifier>{3bf136a0-4c79-46d3-85a4-fdca7f70875c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\ItemObject\REINFORCED TYPE\TransparencyItem">
+      <UniqueIdentifier>{309d2b2f-99c0-407b-9696-8fa10cbf0e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\ItemObject\INSTALLATION TYPE\SnareItem">
+      <UniqueIdentifier>{5d3e89e6-5c3d-4849-b758-1340b8ebae80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\ItemObject\THROW TYPE\StungunItem">
+      <UniqueIdentifier>{8009ba12-cf6e-4acf-91aa-12091f6186ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Object\BackgroundObject">
+      <UniqueIdentifier>{0636daf9-521d-42df-b225-8ea46ed4525a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. UI\InGameUI\BarUI">
+      <UniqueIdentifier>{0a955e87-18a0-446f-ac86-ebb8c5439d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. UI\InGameUI\PopUpUI">
+      <UniqueIdentifier>{cabf979a-dafe-4e71-97d2-16e4fd6ab56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player3">
+      <UniqueIdentifier>{acebd733-4928-40a2-a066-f6ecbe9dc42e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player4">
+      <UniqueIdentifier>{7b315bae-b7fd-4e0c-baf0-484411d6b350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player3\State">
+      <UniqueIdentifier>{62659ff2-6009-4eff-8d1b-927333d6b03f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player3\Transition">
+      <UniqueIdentifier>{4284c10f-e867-4d89-9aa1-baead54be115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player4\State">
+      <UniqueIdentifier>{b60abc04-d032-41e4-a8ee-8fc5ad025c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player4\Transition">
+      <UniqueIdentifier>{4ca43e6c-2c87-4d13-83e8-95f2ea19f470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player3\State\IDLE">
+      <UniqueIdentifier>{2e837f74-866e-48c8-b951-fe75b1ac73c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player3\State\MOVE">
+      <UniqueIdentifier>{fa447492-2778-4e3c-ae01-74277ab35cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player3\State\STUN">
+      <UniqueIdentifier>{93a36653-72e8-46ce-b82d-f77cd5ad156f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player4\State\IDLE">
+      <UniqueIdentifier>{79db4a0d-5183-4929-819b-883b7d30121f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player4\State\MOVE">
+      <UniqueIdentifier>{1f104b07-2ee4-4f04-9eea-a37dc9b5f36b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. FSM\Player4\State\STUN">
+      <UniqueIdentifier>{eae57023-6155-4e13-a5c9-37de7673adaa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>0. pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>0. pch</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>0. pch</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h">
+      <Filter>1. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFSM1.h">
+      <Filter>4. FSM\Player1</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTransition1.h">
+      <Filter>4. FSM\Player1\Transition</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemObject.h">
+      <Filter>3. Object\ItemObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerObject.h">
+      <Filter>3. Object\PlayerObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxObject.h">
+      <Filter>3. Object\TestObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraObject.h">
+      <Filter>3. Object\TestObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoObject.h">
+      <Filter>3. Object\TestObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerObject0.h">
+      <Filter>3. Object\TestObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerObject1.h">
+      <Filter>3. Object\TestObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerObject2.h">
+      <Filter>3. Object\TestObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="UIObject.h">
+      <Filter>3. Object\TestObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFSM2.h">
+      <Filter>4. FSM\Player2</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTransition2.h">
+      <Filter>4. FSM\Player2\Transition</Filter>
+    </ClInclude>
+    <ClInclude Include="PopUpUIObject.h">
+      <Filter>3. Object\TestObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MoneyObject.h">
+      <Filter>3. Object\MoneyObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBoxObject.h">
+      <Filter>3. Object\ItemBoxObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PopUpUIObject2.h">
+      <Filter>3. Object\TestObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaeWorld.h">
+      <Filter>2. World\TestWorlds</Filter>
+    </ClInclude>
+    <ClInclude Include="JunWorld.h">
+      <Filter>2. World\TestWorlds</Filter>
+    </ClInclude>
+    <ClInclude Include="TestWorld.h">
+      <Filter>2. World\TestWorlds</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWorld.h">
+      <Filter>2. World\MainWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="MainUIObject.h">
+      <Filter>5. UI\MainUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileObject.h">
+      <Filter>3. Object\TestObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Train.h">
+      <Filter>3. Object\TrainObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MoneySpawner.h">
+      <Filter>3. Object\Spawner\MoneySpawner</Filter>
+    </ClInclude>
+    <ClInclude Include="TrainSpawner.h">
+      <Filter>3. Object\Spawner\TrainSpawner</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawner.h">
+      <Filter>3. Object\Spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="InstructionUIObject.h">
+      <Filter>5. UI\InstructionUI</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameUIObject.h">
+      <Filter>5. UI\InGameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSettingUIObject.h">
+      <Filter>5. UI\GameSettingUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MadeByUIObject.h">
+      <Filter>5. UI\MadeByUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MadeByWorld.h">
+      <Filter>2. World\MadeByWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameWorld.h">
+      <Filter>2. World\InGameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="InstructionWorld.h">
+      <Filter>2. World\InstructionWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSettingWorld.h">
+      <Filter>2. World\GameSettingWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="PunchItem.h">
+      <Filter>3. Object\ItemObject\THROW TYPE\PunchItem</Filter>
+    </ClInclude>
+    <ClInclude Include="SnowItem.h">
+      <Filter>3. Object\ItemObject\THROW TYPE\SnowItem</Filter>
+    </ClInclude>
+    <ClInclude Include="BottleItem.h">
+      <Filter>3. Object\ItemObject\THROW TYPE\BottleItem</Filter>
+    </ClInclude>
+    <ClInclude Include="ShoeItem.h">
+      <Filter>3. Object\ItemObject\REINFORCED TYPE\ShoeItem</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveItem.h">
+      <Filter>3. Object\ItemObject\REINFORCED TYPE\WaveItem</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapItem.h">
+      <Filter>3. Object\ItemObject\INSTALLATION TYPE\TrapItem</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerIdleState1.h">
+      <Filter>4. FSM\Player1\State\IDLE</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMoveState1.h">
+      <Filter>4. FSM\Player1\State\MOVE</Filter>
+    </ClInclude>
+    <ClInclude Include="TrainPattern.h" />
+    <ClInclude Include="PlayerStunState1.h">
+      <Filter>4. FSM\Player1\State\STUN</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSpawner.h">
+      <Filter>3. Object\Spawner\ItemSpawner</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerIdleState2.h">
+      <Filter>4. FSM\Player2\State\IDLE</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMoveState2.h">
+      <Filter>4. FSM\Player2\State\MOVE</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStunState2.h">
+      <Filter>4. FSM\Player2\State\STUN</Filter>
+    </ClInclude>
+    <ClInclude Include="TransparencyItem.h">
+      <Filter>3. Object\ItemObject\REINFORCED TYPE\TransparencyItem</Filter>
+    </ClInclude>
+    <ClInclude Include="SnareItem.h">
+      <Filter>3. Object\ItemObject\INSTALLATION TYPE\SnareItem</Filter>
+    </ClInclude>
+    <ClInclude Include="StungunItem.h">
+      <Filter>3. Object\ItemObject\THROW TYPE\StungunItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>3. Object\BackgroundObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Bar1Object.h">
+      <Filter>5. UI\InGameUI\BarUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Bar2Object.h">
+      <Filter>5. UI\InGameUI\BarUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Bar3Object.h">
+      <Filter>5. UI\InGameUI\BarUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Bar4Object.h">
+      <Filter>5. UI\InGameUI\BarUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstacleObject.h">
+      <Filter>3. Object\BackgroundObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EnviromentObject.h">
+      <Filter>3. Object\BackgroundObject</Filter>
+    </ClInclude>
+    <ClInclude Include="InGamePopUpUI1.h">
+      <Filter>5. UI\InGameUI\PopUpUI</Filter>
+    </ClInclude>
+    <ClInclude Include="InGamePopUpUI2.h">
+      <Filter>5. UI\InGameUI\PopUpUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFSM3.h">
+      <Filter>4. FSM\Player3</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTransition3.h">
+      <Filter>4. FSM\Player3\Transition</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStunState3.h">
+      <Filter>4. FSM\Player3\State\STUN</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMoveState3.h">
+      <Filter>4. FSM\Player3\State\MOVE</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerIdleState3.h">
+      <Filter>4. FSM\Player3\State\IDLE</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFSM4.h">
+      <Filter>4. FSM\Player4</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerIdleState4.h">
+      <Filter>4. FSM\Player4\State\IDLE</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMoveState4.h">
+      <Filter>4. FSM\Player4\State\MOVE</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStunState4.h">
+      <Filter>4. FSM\Player4\State\STUN</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTransition4.h">
+      <Filter>4. FSM\Player4\Transition</Filter>
+    </ClInclude>
+    <ClInclude Include="TrafficObject.h">
+      <Filter>3. Object\TrainObject</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameResultPopUp.h">
+      <Filter>5. UI\InGameUI\PopUpUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameApp.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="GameApp.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>1. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFSM1.cpp">
+      <Filter>4. FSM\Player1</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTransition1.cpp">
+      <Filter>4. FSM\Player1\Transition</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemObject.cpp">
+      <Filter>3. Object\ItemObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerObject.cpp">
+      <Filter>3. Object\PlayerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxObject.cpp">
+      <Filter>3. Object\TestObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraObject.cpp">
+      <Filter>3. Object\TestObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoObject.cpp">
+      <Filter>3. Object\TestObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerObject0.cpp">
+      <Filter>3. Object\TestObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerObject1.cpp">
+      <Filter>3. Object\TestObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerObject2.cpp">
+      <Filter>3. Object\TestObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="UIObject.cpp">
+      <Filter>3. Object\TestObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFSM2.cpp">
+      <Filter>4. FSM\Player2</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTransition2.cpp">
+      <Filter>4. FSM\Player2\Transition</Filter>
+    </ClCompile>
+    <ClCompile Include="PopUpUIObject.cpp">
+      <Filter>3. Object\TestObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MoneyObject.cpp">
+      <Filter>3. Object\MoneyObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBoxObject.cpp">
+      <Filter>3. Object\ItemBoxObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PopUpUIObject2.cpp">
+      <Filter>3. Object\TestObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaeWorld.cpp">
+      <Filter>2. World\TestWorlds</Filter>
+    </ClCompile>
+    <ClCompile Include="JunWorld.cpp">
+      <Filter>2. World\TestWorlds</Filter>
+    </ClCompile>
+    <ClCompile Include="TestWorld.cpp">
+      <Filter>2. World\TestWorlds</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWorld.cpp">
+      <Filter>2. World\MainWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUIObject.cpp">
+      <Filter>5. UI\MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileObject.cpp">
+      <Filter>3. Object\TestObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Train.cpp">
+      <Filter>3. Object\TrainObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TrainSpawner.cpp">
+      <Filter>3. Object\Spawner\TrainSpawner</Filter>
+    </ClCompile>
+    <ClCompile Include="MoneySpawner.cpp">
+      <Filter>3. Object\Spawner\MoneySpawner</Filter>
+    </ClCompile>
+    <ClCompile Include="Spawner.cpp">
+      <Filter>3. Object\Spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionUIObject.cpp">
+      <Filter>5. UI\InstructionUI</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameUIObject.cpp">
+      <Filter>5. UI\InGameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSettingUIObject.cpp">
+      <Filter>5. UI\GameSettingUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MadeByUIObject.cpp">
+      <Filter>5. UI\MadeByUI</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionWorld.cpp">
+      <Filter>2. World\InstructionWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="MadeByWorld.cpp">
+      <Filter>2. World\MadeByWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameWorld.cpp">
+      <Filter>2. World\InGameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSettingWorld.cpp">
+      <Filter>2. World\GameSettingWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="PunchItem.cpp">
+      <Filter>3. Object\ItemObject\THROW TYPE\PunchItem</Filter>
+    </ClCompile>
+    <ClCompile Include="SnowItem.cpp">
+      <Filter>3. Object\ItemObject\THROW TYPE\SnowItem</Filter>
+    </ClCompile>
+    <ClCompile Include="BottleItem.cpp">
+      <Filter>3. Object\ItemObject\THROW TYPE\BottleItem</Filter>
+    </ClCompile>
+    <ClCompile Include="ShoeItem.cpp">
+      <Filter>3. Object\ItemObject\REINFORCED TYPE\ShoeItem</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveItem.cpp">
+      <Filter>3. Object\ItemObject\REINFORCED TYPE\WaveItem</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapItem.cpp">
+      <Filter>3. Object\ItemObject\INSTALLATION TYPE\TrapItem</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerIdleState1.cpp">
+      <Filter>4. FSM\Player1\State\IDLE</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMoveState1.cpp">
+      <Filter>4. FSM\Player1\State\MOVE</Filter>
+    </ClCompile>
+    <ClCompile Include="TrainPattern.cpp" />
+    <ClCompile Include="PlayerStunState1.cpp">
+      <Filter>4. FSM\Player1\State\STUN</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSpawner.cpp">
+      <Filter>3. Object\Spawner\ItemSpawner</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerIdleState2.cpp">
+      <Filter>4. FSM\Player2\State\IDLE</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMoveState2.cpp">
+      <Filter>4. FSM\Player2\State\MOVE</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStunState2.cpp">
+      <Filter>4. FSM\Player2\State\STUN</Filter>
+    </ClCompile>
+    <ClCompile Include="TransparencyItem.cpp">
+      <Filter>3. Object\ItemObject\REINFORCED TYPE\TransparencyItem</Filter>
+    </ClCompile>
+    <ClCompile Include="SnareItem.cpp">
+      <Filter>3. Object\ItemObject\INSTALLATION TYPE\SnareItem</Filter>
+    </ClCompile>
+    <ClCompile Include="StungunItem.cpp">
+      <Filter>3. Object\ItemObject\THROW TYPE\StungunItem</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>3. Object\BackgroundObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Bar1Object.cpp">
+      <Filter>5. UI\InGameUI\BarUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Bar2Object.cpp">
+      <Filter>5. UI\InGameUI\BarUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Bar3Object.cpp">
+      <Filter>5. UI\InGameUI\BarUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Bar4Object.cpp">
+      <Filter>5. UI\InGameUI\BarUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ObstacleObject.cpp">
+      <Filter>3. Object\BackgroundObject</Filter>
+    </ClCompile>
+    <ClCompile Include="EnviromentObject.cpp">
+      <Filter>3. Object\BackgroundObject</Filter>
+    </ClCompile>
+    <ClCompile Include="InGamePopUpUI1.cpp">
+      <Filter>5. UI\InGameUI\PopUpUI</Filter>
+    </ClCompile>
+    <ClCompile Include="InGamePopUpUI2.cpp">
+      <Filter>5. UI\InGameUI\PopUpUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFSM3.cpp">
+      <Filter>4. FSM\Player3</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTransition3.cpp">
+      <Filter>4. FSM\Player3\Transition</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStunState3.cpp">
+      <Filter>4. FSM\Player3\State\STUN</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMoveState3.cpp">
+      <Filter>4. FSM\Player3\State\MOVE</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerIdleState3.cpp">
+      <Filter>4. FSM\Player3\State\IDLE</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFSM4.cpp">
+      <Filter>4. FSM\Player4</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerIdleState4.cpp">
+      <Filter>4. FSM\Player4\State\IDLE</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMoveState4.cpp">
+      <Filter>4. FSM\Player4\State\MOVE</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStunState4.cpp">
+      <Filter>4. FSM\Player4\State\STUN</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTransition4.cpp">
+      <Filter>4. FSM\Player4\Transition</Filter>
+    </ClCompile>
+    <ClCompile Include="TrafficObject.cpp">
+      <Filter>3. Object\TrainObject</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameResultPopUp.cpp">
+      <Filter>5. UI\InGameUI\PopUpUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
