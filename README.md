@@ -1,9 +1,10 @@
 # Only_Won
 ### 게임인재원 5기 2학기 미니프로젝트
-프로젝트 이름 : &lt;Only Won>  
-장르 : 캐주얼 / 경쟁 / 전략 / 멀티 / 탑뷰   
-개발 환경 : Visual Studio 2022 / DirectX 2D / C++  
-수상 내역 : 최우수상 🏆
+
+* 프로젝트 이름 : `Only Won`  
+* 장르 : `캐주얼` / `경쟁` / `전략` / `멀티` / `탑뷰`   
+* 개발 환경 : `Visual Studio 2022` / `DirectX 2D` / `C++`  
+* 수상 내역 : `최우수상` 🏆
 
 ![](https://github.com/joonyle99/Only_Won/assets/67359781/46d6fa61-afcc-4954-83b7-58b47548cf95)
 
