@@ -11,7 +11,3 @@
 
 스토브 인디에서 데모 플레이 해보기  
 <https://store.onstove.com/ko/games/2391>
-
-<br>
-
-SVN으로 작업해서 커밋 내역이 없습니다.
