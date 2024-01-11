@@ -1,0 +1,38 @@
+{
+  "m_BitmapFilePath": "../Resource/Animation.WorldAsset",
+  "m_Animations": [
+    {
+      "Name": "WINNER_IDLE",
+      "m_Frames": [
+        {
+          "Source.left": 0.0,
+          "Source.top": 110.0,
+          "Source.right": 80.0,
+          "Source.bottom": 220.0,
+          "RenderTime": 0.10000000149011612
+        },
+        {
+          "Source.left": 80.0,
+          "Source.top": 110.0,
+          "Source.right": 160.0,
+          "Source.bottom": 220.0,
+          "RenderTime": 0.10000000149011612
+        },
+        {
+          "Source.left": 160.0,
+          "Source.top": 110.0,
+          "Source.right": 240.0,
+          "Source.bottom": 220.0,
+          "RenderTime": 0.10000000149011612
+        },
+        {
+          "Source.left": 240.0,
+          "Source.top": 110.0,
+          "Source.right": 320.0,
+          "Source.bottom": 220.0,
+          "RenderTime": 0.10000000149011612
+        }
+      ]
+    }
+  ]
+}
