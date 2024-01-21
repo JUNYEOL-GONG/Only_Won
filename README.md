@@ -6,19 +6,19 @@
 * 제작 기간 : `2023.08.07` ~ `2023.08.25`
 * 수상 내역 : `최우수상` 🏆
 * 담당 파트 :
-  1. `충돌 콜라이더 및 물리 효과`
-     - 물리 : 간단한 Rigidbody, 가속도를 이용한 부드러운 움직임
-     - 충돌 콜라이더 : boxCollider, circleCollider, AABB, OBB
-  2. `레이어 시스템`
-     - 특정 콜라이더와 충돌
-  3. `다양한 매니저 설계`
+  1. `Object 계층 구조 설계`
+     - 유니티의 계층 구조를 참고
+     - Object, Transform, ..
+  2. `다양한 매니저 설계`
      - TimeManager
      - InputManager
      - WorldManager
      - CollisionManager
-  4. `Object 계층 구조 설계`
-      - 유니티의 계층 구조를 참고
-      - Object, Transform, ..
+  3. `충돌 콜라이더 및 물리 효과`
+     - 물리 : 간단한 Rigidbody, 가속도를 이용한 부드러운 움직임
+     - 충돌 콜라이더 : boxCollider, circleCollider, AABB, OBB
+  4. `레이어 시스템`
+     - 특정 콜라이더와 충돌
   5. `플레이어 유한 상태 머신(FSM)`
       - Idle, Run, Stun, Die
   6. `기차 시스템 및 패턴 제작`
