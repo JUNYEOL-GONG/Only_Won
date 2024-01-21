@@ -20,7 +20,7 @@
      - 물리 : 간단한 Rigidbody, 가속도를 이용한 부드러운 움직임
      - 충돌 콜라이더 : boxCollider, circleCollider, AABB, OBB
      - 특정 콜라이더와 충돌 가능한 LayerMask 기능
-  4. `플레이어 유한 상태 머신(FSM)`
+  4. `플레이어 유한 상태 머신 (FSM)`
       - Idle, Run, Stun, Die
   5. `기차 시스템 및 패턴 제작`
   6. `xInput API를 이용한 Xbox 컨트롤러`
