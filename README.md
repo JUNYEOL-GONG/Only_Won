@@ -27,6 +27,6 @@
   7. `각종 Util 클래스 및 콘텐츠 제작`
 
 * [기술 문서 1](https://github.com/joonyle99/Only_Won/discussions/4)
-* [기술 문서 2](https://github.com/joonyle99/Only_Won/discussions/4)
+* [기술 문서 2](https://github.com/joonyle99/Only_Won/discussions/5)
 * [플레이 영상](https://www.youtube.com/watch?v=rq6Tg1pvA_8)
 * [스토브 인디에서 데모 플레이](https://store.onstove.com/ko/games/2391)
