@@ -26,7 +26,6 @@
      - 4개의 컨트롤러 동시 입력
   9. `아이템의 기능 및 연출 이펙트`
   10. `각종 유틸 및 콘텐츠 제작`
-     - Math Class, Define ..
 
 ![](https://github.com/joonyle99/Only_Won/assets/67359781/46d6fa61-afcc-4954-83b7-58b47548cf95)
 
