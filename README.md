@@ -11,7 +11,7 @@
   1. `Object 계층 구조 설계`
      - 유니티의 계층 구조를 참고
      - Object, Transform, ..
-  2. `다양한 매니저 설계`
+  2. `다양한 매니저 구현`
      - TimeManager
      - InputManager
      - WorldManager
