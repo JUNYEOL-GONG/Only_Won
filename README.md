@@ -22,10 +22,10 @@
      - 특정 콜라이더와 충돌 가능한 LayerMask 기능
   4. `플레이어 유한 상태 머신 (FSM)`
       - Idle, Run, Stun, Die
-  5. `기차 시스템 및 패턴 제작`
-  6. `xInput API를 이용한 Xbox 컨트롤러`
+  5. `xInput API를 이용한 Xbox 컨트롤러`
      - 4개의 컨트롤러 동시 입력
-  7. `아이템의 기능 및 연출 이펙트`
+  6. `아이템의 기능 및 연출 이펙트`
+  7. `기차 시스템 및 패턴 제작`
   8. `각종 Util 클래스 및 콘텐츠 제작`
 
 * [기술 문서](https://github.com/joonyle99/Only_Won/discussions/4)
