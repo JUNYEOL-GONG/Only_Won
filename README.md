@@ -1,5 +1,7 @@
 # Only_Won
 
+![](https://github.com/joonyle99/Only_Won/assets/67359781/46d6fa61-afcc-4954-83b7-58b47548cf95)
+
 * 프로젝트 이름 : `Only Won`
 * 장르 : `캐주얼` / `경쟁` / `파티` / `전략` / `로컬 멀티` / `콘솔` / `탑뷰`
 * 개발 환경 : `Visual Studio 2022` / `DirectX 2D` / `C++`
@@ -26,8 +28,6 @@
      - 4개의 컨트롤러 동시 입력
   8. `아이템의 기능 및 연출 이펙트`
   9. `각종 Util 클래스 및 콘텐츠 제작`
-
-![](https://github.com/joonyle99/Only_Won/assets/67359781/46d6fa61-afcc-4954-83b7-58b47548cf95)
 
 * [기술 문서](https://github.com/joonyle99/Only_Won/discussions/4)
 * [플레이 영상](https://www.youtube.com/watch?v=rq6Tg1pvA_8)
