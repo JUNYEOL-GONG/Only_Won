@@ -360,4 +360,8 @@
     <ClCompile Include="DebugRenderComponent.cpp" />
     <ClCompile Include="BarUI.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Engine Class Diagram.cd" />
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
 </Project>
