@@ -1,7 +1,6 @@
 # Only_Won
 
 ![](https://github.com/joonyle99/Only_Won/assets/67359781/46d6fa61-afcc-4954-83b7-58b47548cf95)
-![](https://github.com/joonyle99/Only_Won/assets/67359781/9ac923f9-7aeb-4ebf-943b-d4fb657ff718)
 
 * 프로젝트 이름 : `Only Won`
 * 장르 : `캐주얼` / `경쟁` / `파티` / `전략` / `로컬 멀티` / `콘솔` / `탑뷰`
@@ -26,6 +25,8 @@
   5. `아이템의 기능 및 이펙트`
   6. `기차 시스템 및 패턴 제작`
   7. `각종 Util 클래스 및 콘텐츠 제작`
+
+![](https://github.com/joonyle99/Only_Won/assets/67359781/9ac923f9-7aeb-4ebf-943b-d4fb657ff718)
 
 * [기술 문서 1](https://github.com/joonyle99/Only_Won/discussions/4)
 * [기술 문서 2](https://github.com/joonyle99/Only_Won/discussions/5)
