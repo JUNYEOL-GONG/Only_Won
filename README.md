@@ -20,9 +20,9 @@
   5. `기차 시스템 개발`
   6. `각종 Util 클래스`
 
-![](https://github.com/joonyle99/Only_Won/assets/67359781/9ac923f9-7aeb-4ebf-943b-d4fb657ff718)
+#### 기술 문서 1 : [https://github.com/joonyle99/Only_Won/discussions/4 ](https://github.com/joonyle99/Only_Won/discussions/4)
+#### 기술 문서 2 : [https://github.com/joonyle99/Only_Won/discussions/5 ](https://github.com/joonyle99/Only_Won/discussions/5)
+#### 플레이 영상 : [https://www.youtube.com/watch?v=rq6Tg1pvA_8](https://www.youtube.com/watch?v=rq6Tg1pvA_8)
+#### 스토브 인디 데모 : [https://store.onstove.com/ko/games/2391](https://store.onstove.com/ko/games/2391)
 
-* [기술 문서 1](https://github.com/joonyle99/Only_Won/discussions/4)
-* [기술 문서 2](https://github.com/joonyle99/Only_Won/discussions/5)
-* [플레이 영상](https://www.youtube.com/watch?v=rq6Tg1pvA_8)
-* [스토브 인디에서 데모 플레이](https://store.onstove.com/ko/games/2391)
+![](https://github.com/joonyle99/Only_Won/assets/67359781/9ac923f9-7aeb-4ebf-943b-d4fb657ff718)
