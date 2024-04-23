@@ -20,6 +20,18 @@
   5. `기차 시스템 개발`
   6. `각종 Util 클래스`
 
+<details>
+<summary>느낀점</summary>
+<div markdown="1">
+
+<br>
+
+__개발 관점__  
+: Win32API만으로는 한계가 있던 엔진 제작이, 게임 엔진 제작에 최적화된 그래픽스 API DirectX 11을 이용하면서 성능 향상, 그래픽 품질 개선, 그리고 개발 효율성의 증가를 체감할 수 있었습니다. 하드웨어 가속, 프레임 최적화, 변환 행렬, 등은 게임의 성능을 향상시켜 주었고, 팩토리와 같은 객체는 Image, Geometry, RenderTarget과 같은 Direct2D의 리소스 및 객체의 생성을 도와주며 개발 효율성을 향상시켜 주었습니다. 
+
+</div>
+</details>
+
 #### 기술 문서 1 : [https://github.com/joonyle99/Only_Won/discussions/4 ](https://github.com/joonyle99/Only_Won/discussions/4)
 #### 기술 문서 2 : [https://github.com/joonyle99/Only_Won/discussions/5 ](https://github.com/joonyle99/Only_Won/discussions/5)
 #### 플레이 영상 : [https://www.youtube.com/watch?v=rq6Tg1pvA_8](https://www.youtube.com/watch?v=rq6Tg1pvA_8)
