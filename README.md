@@ -10,12 +10,13 @@
 * 담당 파트 :
   1. `객체 지향 프로그래밍 (OOP) 및 컴포넌트 기반 설계 및 개발`
      - Object, GameObject, Component ...
-  2. `충돌 기능 개발`
-     - 충돌 콜라이더 : boxCollider, circleCollider, AABB, OBB
-     - 특정 콜라이더와 충돌 가능한 LayerMask 기능
-  3. `xInput API를 이용한 InputManager 개발`
+  2. `충돌 / 물리 기능 개발`
+     - 충돌 : boxCollider, circleCollider, AABB, OBB
+       - 특정 콜라이더와 충돌 가능한 LayerMask 기능
+     - 물리 : 간단한 Rigidbody, 가속도를 이용한 부드러운 움직임
+  4. `xInput API를 이용한 InputManager 개발`
      - 4개의 xBox 컨트롤러 동시 입력
-  4. `스킬 아이템 구현`
+  5. `스킬 아이템 구현`
 
 <details>
 <summary>느낀점</summary>
@@ -23,9 +24,9 @@
 
 <br>
 
-__개발 관점__  
-Win32API만으로는 게임 엔진 제작에 한계가 있었지만, DirectX 11 API를 이용하면서 성능 향상, 그래픽 품질 개선, 그리고 개발 효율성의 증가를 체감할 수 있었습니다.
-하드웨어 가속, 모니터 주사율에 대한 프레임 최적화, 행렬 변환 지원, 등은 게임의 성능을 향상시켜 주었고, '팩토리'는 Image, Geometry, RenderTarget과 같은 Direct2D의 리소스 및 객체의 생성을 도와주며 개발 효율성을 향상시켜 주었습니다.
+### __개발 관점__  
+Win32API만으로는 게임 엔진 제작에 한계가 있었지만, DirectX 11 API를 이용하면서 성능 향상 및 개발 효율성의 증가를 체감할 수 있었습니다.  
+하드웨어 가속, 모니터 주사율에 대한 프레임 최적화, 행렬 변환 지원, 등 기술적 지원은 게임의 성능을 향상시켜 주었고, '팩토리'는 Image, Geometry, RenderTarget과 같은 Direct2D의 리소스 및 객체의 생성을 도와주며 개발 효율성을 향상시켜 주었습니다.
 
 </div>
 </details>
